@@ -17,9 +17,4 @@ router.delete("/:courseId", async (req, res) => {
   //Add your code here
 });
 
-// Clear cart
-router.delete("/", async (req, res) => {
-  //Add your code here
-});
-
 export default router;
